@@ -43,7 +43,7 @@ public class Tugas2_Output extends javax.swing.JFrame {
         jtsts2.setText(""+status);
         jtgd2.setText(""+godar);
         jtpek2.setText(pekerjaan);
-        jtkew2.setText(""+kewarganegaraan);
+        jtkew21.setText(""+kewarganegaraan);
         
     }
     @SuppressWarnings("unchecked")
@@ -77,7 +77,7 @@ public class Tugas2_Output extends javax.swing.JFrame {
         jtkota2 = new javax.swing.JTextField();
         jtpek2 = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
-        jtkew2 = new javax.swing.JTextField();
+        jtkew21 = new javax.swing.JTextField();
         jtgd2 = new javax.swing.JTextField();
         jtagm2 = new javax.swing.JTextField();
         jtsts2 = new javax.swing.JTextField();
@@ -159,7 +159,7 @@ public class Tugas2_Output extends javax.swing.JFrame {
 
         jLabel16.setText("/");
 
-        jtkew2.setEditable(false);
+        jtkew21.setEditable(false);
 
         jtgd2.setEditable(false);
 
@@ -214,7 +214,7 @@ public class Tugas2_Output extends javax.swing.JFrame {
                             .addComponent(jtkec2)
                             .addComponent(jtkota2)
                             .addComponent(jtpek2)
-                            .addComponent(jtkew2, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jtkew21, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jtgd2)
                             .addComponent(jtagm2)
                             .addComponent(jtsts2)
@@ -283,7 +283,7 @@ public class Tugas2_Output extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(kw2)
-                    .addComponent(jtkew2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jtkew21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(52, Short.MAX_VALUE))
         );
 
@@ -362,7 +362,7 @@ public class Tugas2_Output extends javax.swing.JFrame {
     private javax.swing.JTextField jtgd2;
     private javax.swing.JTextField jtkd2;
     private javax.swing.JTextField jtkec2;
-    private javax.swing.JTextField jtkew2;
+    private javax.swing.JTextField jtkew21;
     private javax.swing.JTextField jtkota2;
     private javax.swing.JTextField jtnama;
     private javax.swing.JTextField jtpek2;
