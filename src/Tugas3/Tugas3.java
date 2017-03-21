@@ -42,8 +42,6 @@ public class Tugas3 extends javax.swing.JFrame {
         buttonGroup1 = new javax.swing.ButtonGroup();
         buttonGroup2 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        panelhome = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
         panelktp = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         nama = new javax.swing.JLabel();
@@ -112,6 +110,8 @@ public class Tugas3 extends javax.swing.JFrame {
         jtagm2 = new javax.swing.JTextField();
         jtsts2 = new javax.swing.JTextField();
         jkk = new javax.swing.JTextField();
+        panelhome = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
@@ -170,30 +170,6 @@ public class Tugas3 extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 204, 51));
         jPanel1.setLayout(new java.awt.CardLayout());
-
-        panelhome.setBackground(new java.awt.Color(0, 204, 153));
-
-        jLabel8.setBackground(new java.awt.Color(0, 204, 153));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Indriawan N\\Downloads\\foto-lembuswana-satwa-mitologi-sang-kota-raja.jpg")); // NOI18N
-
-        javax.swing.GroupLayout panelhomeLayout = new javax.swing.GroupLayout(panelhome);
-        panelhome.setLayout(panelhomeLayout);
-        panelhomeLayout.setHorizontalGroup(
-            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelhomeLayout.createSequentialGroup()
-                .addGap(129, 129, 129)
-                .addComponent(jLabel8)
-                .addContainerGap(132, Short.MAX_VALUE))
-        );
-        panelhomeLayout.setVerticalGroup(
-            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelhomeLayout.createSequentialGroup()
-                .addGap(107, 107, 107)
-                .addComponent(jLabel8)
-                .addContainerGap(112, Short.MAX_VALUE))
-        );
-
-        jPanel1.add(panelhome, "card2");
 
         panelktp.setBackground(new java.awt.Color(255, 255, 0));
         panelktp.setForeground(new java.awt.Color(255, 255, 0));
@@ -335,7 +311,7 @@ public class Tugas3 extends javax.swing.JFrame {
                                     .addGap(18, 18, 18)
                                     .addComponent(rbp)))))
                     .addComponent(jLabel2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                 .addComponent(breset)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(bregister)
@@ -405,7 +381,7 @@ public class Tugas3 extends javax.swing.JFrame {
                     .addComponent(kw)
                     .addComponent(rbkew1)
                     .addComponent(rbkew2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 94, Short.MAX_VALUE)
                 .addGroup(panelktpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(breset)
                     .addComponent(bregister))
@@ -549,7 +525,7 @@ public class Tugas3 extends javax.swing.JFrame {
                             .addComponent(jtsts2)
                             .addComponent(jkk)))
                     .addComponent(jLabel7))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(197, Short.MAX_VALUE))
         );
         panelktp2Layout.setVerticalGroup(
             panelktp2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -613,10 +589,27 @@ public class Tugas3 extends javax.swing.JFrame {
                 .addGroup(panelktp2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(kw2)
                     .addComponent(jtkew2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(143, Short.MAX_VALUE))
         );
 
         jPanel1.add(panelktp2, "card4");
+
+        panelhome.setBackground(new java.awt.Color(0, 204, 153));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon("E:\\Documents\\Informatic Engineering\\SEMESTER 4\\loundry\\src\\Tugas3\\Gambar\\1.png")); // NOI18N
+
+        javax.swing.GroupLayout panelhomeLayout = new javax.swing.GroupLayout(panelhome);
+        panelhome.setLayout(panelhomeLayout);
+        panelhomeLayout.setHorizontalGroup(
+            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel9)
+        );
+        panelhomeLayout.setVerticalGroup(
+            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel9)
+        );
+
+        jPanel1.add(panelhome, "card2");
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
@@ -696,8 +689,10 @@ public class Tugas3 extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(0, 204, 51));
 
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel5.setText("KABUPATEN KUTAI KARTANEGARA");
 
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 17)); // NOI18N
         jLabel6.setText("PROVINSI KALIMANTAN TIMUR");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -705,25 +700,23 @@ public class Tugas3 extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(244, 244, 244)
-                .addComponent(jLabel5)
-                .addContainerGap(295, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel4Layout.createSequentialGroup()
-                    .addGap(254, 254, 254)
-                    .addComponent(jLabel6)
-                    .addContainerGap(303, Short.MAX_VALUE)))
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(203, 203, 203)
+                        .addComponent(jLabel5))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(244, 244, 244)
+                        .addComponent(jLabel6)))
+                .addContainerGap(184, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addComponent(jLabel5)
-                .addGap(0, 44, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel4Layout.createSequentialGroup()
-                    .addGap(10, 10, 10)
-                    .addComponent(jLabel6)
-                    .addContainerGap(34, Short.MAX_VALUE)))
+                .addGap(20, 20, 20)
+                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(16, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel4, java.awt.BorderLayout.PAGE_END);
@@ -903,7 +896,7 @@ public class Tugas3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JMenu jMenu12;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
